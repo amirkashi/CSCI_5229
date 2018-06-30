@@ -1,0 +1,40 @@
+Amir Kashipazha
+
+To run in terminal:
+	make 
+	./final
+
+ESC        Exit
+0          Reset view angle
+
+Key bindings:
+Perspective and orthogonal
+	m          Toggle between perspective and orthogonal
+	arrows     Change view angle
+	z/x        Zoom in and out
+	1/2	   Change field of view in perspective
+First person view:
+	f	   Changes to first persiion
+	w/s        Moves forward/backward in first person
+	a/d	   Rotate camera in first person
+
+
+space stop / and move the light
+K/k move light manually 
+y/Y        Decrease/increase light Y-position
+l/L        Toggle lighting on/off
+a/A        Decrease/increase ambient light
+d/D        Decrease/increase diffuse light
+s/S        Decrease/increase specular light
+e/E        Decrease/increase emitted light
+
+
+
+
+
+  
+
+  
+
+
+
