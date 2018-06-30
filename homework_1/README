@@ -1,0 +1,16 @@
+Amir Kashipazha
+
+To run in terminal:
+	make
+	./hw2
+
+Cotrols kies while program is running:
+	Esc => to exit the program
+	d	=> reset to defult lorenz values
+	s	=> decrease lorenz s parameter 	-0.25
+	S	=> increase lorenz s parameter 	+0.25d
+	b	=> decrease lorenz b parameter 	-0.1
+	B	=> increase lorenz b parameter 	+0.1
+	r	=> decrease lorenz r parameter 	-0.25
+	R	=> increase lorenz r parameter	+0.25
+	
