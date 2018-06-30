@@ -1,0 +1,50 @@
+Homework 2: Drawing in 3D
+Create an OpenGL program this allows a scene to be viewed in 3D . The program
+should allow the scene to be viewed from multiple eye positions directed by
+user input. The scene should be viewable in both orthogonal and perspective
+projections.
+
+The scene should consist of several 3D solid objects, and at least two
+instances of the same object, but with each instance at a different position,
+scale and orientation. The program must create at least one generic object, and
+then create each instance by translation, rotation and scaling of the generic
+object.
+
+You must generate the objects yourself.  GLU or GLUT canned objects or
+importing objects are prohibited.  At least one of the objects must be
+something that is not provided in the class examples, i.e. not a sphere or a
+cube.
+
+What I don NOT want you to draw are snowmen and pyramids.  Neither of these are
+sufficiently challenging.
+
+The program should allow the scene to be viewed from different viewpoints using
+the cursor keys or mouse. The different projections would, of course, make the
+scene look different, but should be from approximately the same vantage points
+and size.
+
+The program should allow a third mode which provides for first person
+navigation using a perspective projection.  The cursor keys should allow the
+user to traverse the scene.
+
+What to draw is left to your imagination. You could, for example, create a
+scene of a town consisting of a number of houses. The generic instance of house
+can be transformed so that each house has a different length, width, height and
+color.
+
+The program should instruct OpenGL to remove those parts of the objects that
+are obstructed by other objects in the scene.
+
+Think ahead. You may want to build on this program for subsequent assignments.
+
+What to turn in:
+1) Source code including makefile;
+2) Readme with instructions;
+3) Approximate time it took to complete the assignment.
+
+The purpose of this assignment is to give you some experience with creating
+generic 3D objects. You may want to start with just the orthogonal projection
+until you get the objects built and the scene composed. Then add perspective.
+
+For this assignment points will be deducted for incorrect makefiles and submissions
+that do not unpack in the base directory.

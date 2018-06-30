@@ -1,0 +1,18 @@
+To run in terminal:
+	make
+	./hw2
+
+Key bindings:
+Perspective and orthogonal
+	m          Toggle between perspective and orthogonal
+	+/-        Changes field of view for perspective
+	arrows     Change view angle
+	z/x        Zoom in and out
+	0          Reset view angle
+	
+First person view:
+	f	   Changes to first persiion
+	w/s        Moves forward/backward in first person
+	a/d	   Rotate camera in first person
+
+ESC        Exit
